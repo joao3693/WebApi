@@ -1,5 +1,5 @@
 <script setup>
-const drink = defineProps(["name","baseUrlSvg"])
+const drink = defineProps(["name"])
 </script>
 
 <template>

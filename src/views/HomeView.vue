@@ -20,11 +20,12 @@ onMounted(() => {
     <div class="container">
       <div class="row mt-4">
         <div class="col-sm-12 col-md-6">
-          <div class="card" style="width: 8rem;">
+
+          <div class="card" style="width: 18rem;">
             <img src="https:\/\/www.thecocktaildb.com\/images\/media\/drink\/metwgh1606770327.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h2 class="card-title">Mojito</h2>
-              <p class="card-text"></p>
+              <p class="card-text">{{strIngredient1}}2-3 onças de rum light, Suco de 1 Limão, 2 colheres de chá de açúcar, 2-4 hortelã, Água com gás</p>
             </div>
           </div>
         </div>
