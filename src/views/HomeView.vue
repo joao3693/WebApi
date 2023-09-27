@@ -21,10 +21,10 @@ onMounted(() => {
       <div class="row mt-4">
         <div class="col-sm-12 col-md-6">
           <div class="card" style="width: 18rem;">
-            <img src="https:\/\/www.thecocktaildb.com\/images\/media\/drink\/2x8thr1504816928.jpg" class="card-img-top" alt="...">
-            <div class="card body">
-              <h5 class="card-title">Mojito</h5>
-              <p class="card-text">haha</p>
+            <img src="https:\/\/www.thecocktaildb.com\/images\/media\/drink\/metwgh1606770327.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h2 class="card-title">Mojito</h2>
+              <p class="card-text"></p>
             </div>
           </div>
         </div>
@@ -32,13 +32,12 @@ onMounted(() => {
         <div class="col-sm-12 col-md-6">
           <div class="card" >
             <div class="card-body-row">
-            <ListDrinks 
+              <ListDrinks 
                 v-for="strDrink in strDrinks"
                 :key="strDrink.name"
                 :name="strDrink.name"
                 :baseUrlSvg="baseUrlSvg + strDrink.url.split('/')[6] + '.svg'"
                 />
-              {{ strDrink.name }}
             </div>
           </div>
         </div>
